@@ -30,15 +30,14 @@ int main()
     scanf("%d", &pos);
 
     for(i= pos-1; i<n; i++)
-
+    {
         ptrm[i]= ptrm[i+1];
     }
 
     printf("After deleting your array is :");
 
-   // ptrm= realloc(ptrm, n-1 * sizeof(int));
 
-    for(i=0; i<n; i++)
+    for(i=0; i<n-1; i++)
     {
         printf("%d ", ptrm[i]);
     }

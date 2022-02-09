@@ -4,7 +4,7 @@ int main()
 {
   int m, n, c, d, mat[10][10], tran[10][10];
 
-  printf("Enter the number of rows and columns of a mat\n");
+  printf("Enter the number of rows and columns of a matrix\n");
   scanf("%d%d", &m, &n);
   printf("Enter elements of the matrix\n");
 

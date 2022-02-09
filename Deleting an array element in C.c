@@ -2,7 +2,7 @@
 
 int main()
 {
-    int i,a,n;
+    int i,x,n;
     printf("Array Length: \n");
     scanf("%d" ,&n);
     int a[n];
@@ -12,15 +12,15 @@ int main()
         scanf("%d" ,&a[i]);
     }
     printf("\nIndex that wanna delete");
-    scanf("%d" ,&a);
-    if(a < 0 || a > n)
+    scanf("%d" ,&x);
+    if(x < 0 || x > n)
       {
          printf("Invalid\n");
       }
     else
 
   {
-        for(i=a-1;i<n;i++)
+        for(i=x-1;i<n;i++)
         {
             a[i]=a[i+1];
         }
